@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <parameter name="city" value="Cartagena"/>
+    <parameter name="busqueda" value="Búsqueda"/>
+    <parameter name="sorprendete" value="Sorpréndete"/>
+    <parameter name="favoritos" value="Favoritos"/>
+    <parameter name="configuracion" value="Configuración"/>
+    <test name="test">
+        <classes>
+            <class name="com.tests.Exercises"></class>
+        </classes>
+    </test>
+</suite>
