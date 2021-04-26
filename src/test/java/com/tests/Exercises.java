@@ -43,7 +43,7 @@ public class Exercises {
         privacyPage.btnAccept.click();
         Assert.assertTrue(landingPage.btnSearch.isDisplayed());
     }
-/*
+
     @Test
     @Parameters({"city","month"})
     public void searchHotel(String city, String month) {
@@ -70,7 +70,7 @@ public class Exercises {
         landingPage.btnConfirmDate.click();
         Assert.assertEquals(city,landingPage.cityReady.getText());
         Assert.assertEquals(month,landingPage.dateReady.getText());
-    }*/
+    }
 
     @Test
     @Parameters({"busqueda","sorprendete","favoritos","configuracion"})
